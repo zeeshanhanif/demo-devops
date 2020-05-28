@@ -1,4 +1,4 @@
-name: 04 Deploy React App
+name: 04 Deploy React on Heroku
 
 on:
   push:

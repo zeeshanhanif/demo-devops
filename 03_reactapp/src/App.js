@@ -9,7 +9,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.<br/>
-          Update app
+          Update app<br/>
+          03 React App on Surge
         </p>
         <a
           className="App-link"
