@@ -31,3 +31,4 @@ jobs:
         heroku_app_name: "demo-react2"
         heroku_email: "zeeshanhanif@panacloud.com"
         usedocker: false
+        dontuseforce: false
