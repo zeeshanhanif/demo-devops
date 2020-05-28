@@ -25,7 +25,10 @@ jobs:
       run: npm install
     - name: Build App
       run: npm run build
-    - name: Install Surge
-      run: npm install -g surge
-    - name: Run Surge
-      run: surge ./build zeeshan-react2.surge.sh --token ${{secrets.SURGE_TOKEN}}
+    - uses: akhileshns/heroku-deploy@v3.0.4
+      with:
+        heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+        heroku_app_name: "demo-react2"
+        heroku_email: "zeeshanhanif@panacloud.com"
+        usedocker: false
+        appdir: "build"

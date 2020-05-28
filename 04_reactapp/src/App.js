@@ -9,7 +9,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.<br/>
-          04 React App on Heroku
+          04 React App on Heroku <br/>
+          Updated
         </p>
         <a
           className="App-link"
