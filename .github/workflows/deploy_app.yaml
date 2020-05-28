@@ -18,4 +18,4 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run Surge
-      run: surge ./ zeeshanhanif.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./01_staticweb/ zeeshanhanif.surge.sh --token ${{secrets.SURGE_TOKEN}}
