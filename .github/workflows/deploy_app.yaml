@@ -3,6 +3,8 @@ name: Deploy Web App
 on:
   push:
     branches: [ master ]
+    paths:
+    - '01_staticweb/**'
     
 jobs:
   build:
