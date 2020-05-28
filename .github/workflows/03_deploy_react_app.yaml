@@ -17,6 +17,8 @@ jobs:
       uses: actions/setup-node@v2-beta
       with:
         node-version: 12
+    - name: Change Directory
+      run: cd ./03_reactapp/
     - name: Install Web Packages
       run: npm install
     - name: Build App
