@@ -1,4 +1,4 @@
-name: Deploy 2nd Web App
+name: 02 Deploy 2nd Web App
 
 on:
   push:
