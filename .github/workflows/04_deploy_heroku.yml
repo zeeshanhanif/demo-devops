@@ -23,8 +23,7 @@ jobs:
         node-version: 12
     - name: Install Web Packages
       run: npm install
-    - name: Build App
-      run: npm run build
+    
     - uses: akhileshns/heroku-deploy@v3.0.4
       with:
         heroku_api_key: ${{secrets.HEROKU_API_KEY}}
