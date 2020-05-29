@@ -32,4 +32,5 @@ jobs:
         heroku_email: "zeeshanhanif@panacloud.com"
         usedocker: false
         dontuseforce: false
+        buildpack: "https://github.com/mars/create-react-app-buildpack.git"
         appdir: "04_reactapp"
