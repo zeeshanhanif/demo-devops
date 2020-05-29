@@ -10,7 +10,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.<br/>
           04 React App on Heroku <br/>
-          Finally Deployed on Heorku
+          Finally Deployed on Heorku updated
         </p>
         <a
           className="App-link"
