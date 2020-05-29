@@ -32,4 +32,3 @@ jobs:
         heroku_email: "zeeshanhanif@panacloud.com"
         usedocker: false
         dontuseforce: false
-        appdir: "04_reactapp"
