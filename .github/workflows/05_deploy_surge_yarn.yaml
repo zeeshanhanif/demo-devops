@@ -22,6 +22,8 @@ jobs:
       with:
         node-version: 12
     
+    - name: Directory
+      run: dir
     - name: Change Directory
       run: cd ./05_reactappwithyarn
       
