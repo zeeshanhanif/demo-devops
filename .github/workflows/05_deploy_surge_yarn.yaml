@@ -22,6 +22,9 @@ jobs:
       with:
         node-version: 12
     
+    - name: Change Directory
+      run: cd ./05_reactappwithyarn
+      
     - uses: borales/actions-yarn@v2.0.0
       with: 
         cmd: install
